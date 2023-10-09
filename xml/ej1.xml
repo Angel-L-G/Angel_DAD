@@ -1,0 +1,15 @@
+<?xml versión="1.0" encoding = "UTF-8"?>
+<hechos>
+    <hecho>
+        <name>IBM da a conocer el PC.</name>
+        <date dia="12" mes="" año="1981"></date>
+    </hecho>
+    <hecho>
+        <name>Se funda Google.</name>
+        <date dia="4" mes="9" año="1998"></date>
+    </hecho>
+    <hecho>
+        <name>Se funda Facebook.</name>
+        <date dia="4" mes="2" año="2004"></date>
+    </hecho>
+</hechos>

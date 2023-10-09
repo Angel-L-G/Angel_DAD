@@ -1,0 +1,25 @@
+<?xml versión="1.0" encoding = "UTF-8"?>
+    <terrestres>
+        <vehiculo>bicicleta</vehiculo>
+        <vehiculo>coche</vehiculo>
+        <vehiculo>tractor</vehiculo>
+    </terrestres>
+    <acuaticos>
+        <vehiculo>canoa</vehiculo>
+    </acuaticos>
+    <aereos>
+        <vehiculo>avioneta</vehiculo>
+        <vehiculo>helicóptero</vehiculo>
+    </aereos>
+
+<?xml version="1,0" encoding="UTF8"?>
+    <triangulo base="7" altura="5"></triangulo>
+    <triangulo base="2" altura="6"></triangulo>
+    <triangulo base="3" altura="3"></triangulo>
+
+<?xml version="1.0" encoding="UTF-8"?>
+    <numeros>
+        <1 letra="u" letra="n" letra="o">1<1/>
+        <2 letra="d" letra="o" letra="s">22<2/>
+        <6 letra="s" letra="e" letra="i" letra="s">666666<6/>
+    </numeros>
