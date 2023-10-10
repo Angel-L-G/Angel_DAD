@@ -1,0 +1,8 @@
+<!-- DTD de Catalogos -->
+<!ELEMENT catalogo (producto)+>
+    <!ELEMENT producto (nombre, descripcion?, (origen|pais))>
+            <!ATTLIST producto codigo CDATA #IMPLIED>
+        <!ELEMENT nombre (#PCDATA)>
+        <!ELEMENT descripcion (#PCDATA)>
+        <!ELEMENT origen (#PCDATA)>
+        <!ELEMENT pais (#PCDATA)>

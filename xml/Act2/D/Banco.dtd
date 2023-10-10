@@ -1,0 +1,8 @@
+<!ELEMENT cuentas ((copropietario | cheques)*,ahorros)>
+<!ELEMENT copropietario (#PCDATA)>
+<!ELEMENT cheques (saldo,transaccion*,cargos)>
+    <!ELEMENT saldo (#PCDATA)>
+    <!ELEMENT transaccion (#PCDATA)>
+<!ELEMENT ahorros (saldo,intereses)>
+    <!ELEMENT cargos (#PCDATA)>
+    <!ELEMENT intereses (#PCDATA)>

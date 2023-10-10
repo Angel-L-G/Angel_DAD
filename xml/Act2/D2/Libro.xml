@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE Libros SYSTEM "Libro.dtd">
+<Libros>
+    <Libro xmlns="1">
+        <Titulo>Un titulo</Titulo>
+        <Contenido>
+            <Capitulo>
+                <Tema></Tema>
+                <Seccion apartados=""></Seccion>
+                <Seccion apartados=""></Seccion>
+            </Capitulo>
+            <Capitulo>
+                <Tema></Tema>
+                <Seccion apartados=""></Seccion>
+            </Capitulo>
+        </Contenido>
+        <Copyright>FreeWare</Copyright>
+    </Libro>
+
+    <Libro xmlns="1">
+        <Titulo>Un titulo</Titulo>
+        <Contenido>
+            <Capitulo>
+                <Tema></Tema>
+                <Seccion apartados=""></Seccion>
+                <Seccion apartados=""></Seccion>
+            </Capitulo>
+            <Separacion />
+        </Contenido>
+        <Copyright>FreeWare</Copyright>
+    </Libro>
+</Libros>

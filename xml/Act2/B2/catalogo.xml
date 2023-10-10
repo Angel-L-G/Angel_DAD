@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE catalogo SYSTEM "catalogo.dtd">
+<catalogo>
+    <producto codigo="id01">
+        <nombre>Teclado</nombre>
+        <descripcion>Para escribir</descripcion>
+        <origen>China</origen>
+    </producto>
+    <producto codigo="id02">
+        <nombre>Figura</nombre>
+        <descripcion>Decoracion, no hace nada</descripcion>
+        <pais>japon</pais>
+    </producto>
+</catalogo>

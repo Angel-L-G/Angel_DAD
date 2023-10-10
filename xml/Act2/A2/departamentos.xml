@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE departamentos SYSTEM "departamentos.dtd">
+<departamentos>
+    <departamento>
+        <nomdept>Ventas</nomdept>
+        <responsable>
+            <nombre>Kyoraku</nombre>
+            <apellidos>shunsui</apellidos>
+            <email>KyoSuhun@gmail.com</email>
+            <extension>abc</extension>
+        </responsable>
+        <personas>
+            <persona>
+                <nombre>Hitsugaya</nombre>
+                <apellidos>Toshiro</apellidos>
+                <email>HitTosh@gmail.com</email>
+                <extension>bcd</extension>
+            </persona>
+        </personas>
+    </departamento>
+    <departamento>
+        <nomdept>Recursos Humanos</nomdept>
+        <responsable>
+            <nombre>Byukuya</nombre>
+            <apellidos>Kuchiki</apellidos>
+            <email>ByuKu@gmail.com</email>
+            <extension>cde</extension>
+        </responsable>
+        <personas>
+            <persona>
+                <nombre>Rukia</nombre>
+                <apellidos>Kuchiki</apellidos>
+                <email>RukKu@gmail.com</email>
+                <extension>def</extension>
+            </persona>
+            <persona>
+                <nombre>Abarai</nombre>
+                <apellidos>Renji</apellidos>
+                <email>AbaRen@gmail.com</email>
+                <extension>efh</extension>
+            </persona>
+        </personas>
+    </departamento>
+</departamentos>

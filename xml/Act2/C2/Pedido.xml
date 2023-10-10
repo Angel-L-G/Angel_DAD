@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE Pedido SYSTEM "Pedido.dtd">
+<Pedido xmlns="1" fecha="01/01/2001">
+    <Destino>
+        <Nombre>Tienda PC</Nombre>
+        <Direccion>Calle abc</Direccion>
+        <Ciudad>Los Realejos</Ciudad>
+        <CodPostal>38400</CodPostal>
+    </Destino>
+    <Ordenante>
+        <Nombre>Jonny Mepenino</Nombre>
+        <Direccion>Calle def</Direccion>
+        <Ciudad>La Perdoma</Ciudad>
+        <CodPostal>38450</CodPostal>
+    </Ordenante>
+    <Observaciones>Bla Bla Bla</Observaciones>
+    <Contenido>
+        <Producto codigo="id01">
+            <Nombre>Teclado</Nombre>
+            <Cantidad>50</Cantidad>
+            <Precio>25</Precio>
+        </Producto>
+        <Producto codigo="id02">
+            <Nombre>Monitor</Nombre>
+            <Cantidad>15</Cantidad>
+            <Precio>150</Precio>
+        </Producto>
+    </Contenido>
+</Pedido>
