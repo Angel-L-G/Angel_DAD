@@ -5,25 +5,25 @@
         <Titulo>Un titulo</Titulo>
         <Contenido>
             <Capitulo>
-                <Tema></Tema>
-                <Seccion apartados=""></Seccion>
-                <Seccion apartados=""></Seccion>
+                <Tema>A</Tema>
+                <Seccion apartados="2">K9</Seccion>
+                <Seccion apartados="3">H1</Seccion>
             </Capitulo>
             <Capitulo>
-                <Tema></Tema>
-                <Seccion apartados=""></Seccion>
+                <Tema>B</Tema>
+                <Seccion apartados="4">I6</Seccion>
             </Capitulo>
         </Contenido>
         <Copyright>FreeWare</Copyright>
     </Libro>
 
     <Libro xmlns="1">
-        <Titulo>Un titulo</Titulo>
+        <Titulo>Un segundo titulo</Titulo>
         <Contenido>
             <Capitulo>
-                <Tema></Tema>
-                <Seccion apartados=""></Seccion>
-                <Seccion apartados=""></Seccion>
+                <Tema>C</Tema>
+                <Seccion apartados="5">A4</Seccion>
+                <Seccion apartados="6">G7</Seccion>
             </Capitulo>
             <Separacion />
         </Contenido>
