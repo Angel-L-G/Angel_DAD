@@ -1,4 +1,4 @@
-package org.openfx.aaaaaaa;
+package T1;
 
 import java.io.IOException;
 import javafx.fxml.FXML;
