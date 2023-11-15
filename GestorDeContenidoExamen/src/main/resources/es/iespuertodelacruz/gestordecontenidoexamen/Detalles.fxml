@@ -4,7 +4,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.shape.Rectangle?>
 
-<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #999999;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="es.iespuertodelacruz.gestordecontenidoexamen.controller.PrimaryController">
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #999999;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="es.iespuertodelacruz.gestordecontenidoexamen.controller.DetallesController">
    <children>
       <Rectangle arcHeight="5.0" arcWidth="5.0" height="48.0" stroke="BLACK" strokeType="INSIDE" width="600.0" />
       <Label fx:id="txtName" layoutX="278.0" layoutY="94.0" prefHeight="26.0" prefWidth="164.0" style="-fx-background-color: #ffffff;" text="Product Name" />
