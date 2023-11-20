@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<!DOCTYPE Productos SYSTEM "EjercicioA.dtd">
+<listacursos>
+    <curso>
+        <alumno>
+            <dni>123456789</dni>
+            <nombre>Juan</nombre>
+            <ap1>Gomez</ap1>
+            <ap2>Perez</ap2>
+            <listaasignaturas>
+                <asignatura codigo="C1">
+                    <nombre>Matemáticas</nombre>
+                    <profesor>
+                        <nrp>001</nrp>
+                        <nombre>Profesor1</nombre>
+                        <ap1>Apellido1</ap1>
+                        <ap2>Apellido2</ap2>
+                    </profesor>
+                </asignatura>
+                <asignatura codigo="C2">
+                    <nombre>Lengua</nombre>
+                    <profesor>
+                        <nrp>002</nrp>
+                        <nombre>Profesor2</nombre>
+                        <ap1>Apellido3</ap1>
+                        <ap2>Apellido4</ap2>
+                    </profesor>
+                </asignatura>
+            </listaasignaturas>
+        </alumno>
+        <alumno>
+        </alumno>
+    </curso>
+</listacursos>
