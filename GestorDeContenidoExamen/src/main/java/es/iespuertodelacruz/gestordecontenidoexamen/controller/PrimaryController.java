@@ -14,18 +14,26 @@ import javafx.scene.text.Text;
 import javafx.stage.Stage;
 
 public class PrimaryController {
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> 2450dd6950e685a8b53661272f9b90a94e37a006
     @FXML
     private Button btnGoToLogin;
     @FXML
     private Button btnGoToRegister;
-    
     @FXML
+<<<<<<< HEAD
+=======
+    private Button btnContacto;
+    
+    
+>>>>>>> 2450dd6950e685a8b53661272f9b90a94e37a006
     private void abrirGestor(ActionEvent event) throws IOException {
         App.setRoot("Gestor",1077,700);
     }
     
-    @FXML
     private void abrirGestorDesdeLogin(ActionEvent event) throws IOException {
         App.setRoot("Gestor",1077,700);
     }
@@ -39,6 +47,7 @@ public class PrimaryController {
     private void irARegister(ActionEvent event) throws IOException{
         App.setRoot("Register",634,468);
     }
+<<<<<<< HEAD
     
     @FXML
     private void btnIrContacto(ActionEvent event) {
@@ -49,4 +58,11 @@ public class PrimaryController {
         }
     }
     
+=======
+
+    @FXML
+    private void redirigirContacto(ActionEvent event) throws IOException {
+        App.setRoot("Contactos",600,400);
+    }
+>>>>>>> 2450dd6950e685a8b53661272f9b90a94e37a006
 }

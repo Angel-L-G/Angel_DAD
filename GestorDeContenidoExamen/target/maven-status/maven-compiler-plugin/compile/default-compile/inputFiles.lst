@@ -1,4 +1,11 @@
+<<<<<<< HEAD
 /home/dam2/Escritorio/Angel_DAD/GestorDeContenidoExamen/src/main/java/es/iespuertodelacruz/gestordecontenidoexamen/App.java
 /home/dam2/Escritorio/Angel_DAD/GestorDeContenidoExamen/src/main/java/es/iespuertodelacruz/gestordecontenidoexamen/controller/PrimaryController.java
 /home/dam2/Escritorio/Angel_DAD/GestorDeContenidoExamen/src/main/java/module-info.java
 /home/dam2/Escritorio/Angel_DAD/GestorDeContenidoExamen/src/main/java/es/iespuertodelacruz/gestordecontenidoexamen/controller/ContactoController.java
+=======
+/home/dam2/Escritorio/repositorios/Angel_DAD/GestorDeContenidoExamen/src/main/java/es/iespuertodelacruz/gestordecontenidoexamen/controller/ContactosController.java
+/home/dam2/Escritorio/repositorios/Angel_DAD/GestorDeContenidoExamen/src/main/java/es/iespuertodelacruz/gestordecontenidoexamen/App.java
+/home/dam2/Escritorio/repositorios/Angel_DAD/GestorDeContenidoExamen/src/main/java/es/iespuertodelacruz/gestordecontenidoexamen/controller/PrimaryController.java
+/home/dam2/Escritorio/repositorios/Angel_DAD/GestorDeContenidoExamen/src/main/java/module-info.java
+>>>>>>> 2450dd6950e685a8b53661272f9b90a94e37a006

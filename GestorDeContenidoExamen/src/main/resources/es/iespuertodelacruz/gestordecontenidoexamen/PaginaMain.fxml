@@ -23,6 +23,10 @@
             <Font size="30.0" />
          </font>
       </Label>
+<<<<<<< HEAD
       <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#btnIrContacto" prefHeight="36.0" prefWidth="86.0" text="Contacto" />
+=======
+      <Button fx:id="btnContacto" layoutX="356.0" layoutY="464.0" mnemonicParsing="false" onAction="#redirigirContacto" text="Contacto" />
+>>>>>>> 2450dd6950e685a8b53661272f9b90a94e37a006
    </children>
 </AnchorPane>
