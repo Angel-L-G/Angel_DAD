@@ -1,0 +1,8 @@
+dbq-radiobutton {
+    display: block;
+    background: lightgray;
+    color: white;
+    padding: 5px;
+    width: 125px;
+    height: 125px;
+}
