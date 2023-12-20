@@ -1,6 +1,12 @@
 class DbqRadioButton extends HTMLElement {
     constructor() {
         super();
+        this.innerHTML = ` 
+        <div>
+            <canvas id="rbcanvas" width=800 height=800>
+            </canvas>
+        </div>
+        `;
         console.log("Inicializado...");
     }
 
@@ -15,10 +21,28 @@ class DbqRadioButton extends HTMLElement {
         lienzo.fillStyle = degradado;
         lienzo.fillRect(0,0,500,300);
     }*/
+    
+    handleEvent(event) {
+        if(event.type === "click"){
+            console.log("a");
+        }
+
+        this.btnClicked = !this.btnClicked;
+        console.log(btnClicked);
+    }
 
     connectedCallback() {
-        const canvas = document.getElementById("lienzo");
-        const ctx = canvas.getContext("2d");
+        const radioButton = document.querySelector("#rbcanvas") || "";
+        this.draw
+
+    }
+
+    disconnectedcallBack(){
+        this.removeEventListener("click", this);
+    }
+
+    drawradioButton(radiobutton){
+        const ctx = radiobutton.getContext("2d");
 
         ctx.beginPath();
         ctx.arc(100,75,50,0,2*Math.PI);
@@ -35,7 +59,6 @@ class DbqRadioButton extends HTMLElement {
         ctx.arc(100,75,20,0,2*Math.PI);
         ctx.fillStyle = "black";
         ctx.fill();
-
     }
 
 }
